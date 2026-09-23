@@ -1,0 +1,4 @@
+nota = float(input('1digite uma nota: '))
+while(nota < 0 or nota > 10):
+    print(f'voce digitou{nota},mas ela deve estra entre 0 e 10.')
+nota = float(input('digite a nota : '))

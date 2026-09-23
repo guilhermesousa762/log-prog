@@ -1,0 +1,16 @@
+# pegue o nome e a cidade 
+# se a cidade for rj,
+# print "seja bem vindo a ciade maravilhosa, nome"
+# s nao for rj, exiba o nome da pessoa e a de onde esta digitando 
+
+def verificar_local(nome, cidade):
+    if cidade == 'Rio de janeiro' or cidade == 'rj':
+        print(f'Seja bem vindo a cidade maravilhosa, {nome}')
+    else:
+        print(f'seja bem vindo a {cidade}, {nome}')
+
+
+nome = input('digite seu  nome: ')
+cidade = input('digite a cidade: ')
+
+verificar_local(nome, cidade)

@@ -1,0 +1,24 @@
+filmes = ['transformes', 'os smurfs', 'interestelar','vingadores', 'frozen',' sherek', 'sexta feira 13']
+
+#ordenar em ordem alfabetica
+filmes.sort()
+print(filmes)
+
+print(60*'=')
+
+#ordenar em ordem decrescente
+filmes.sort(reverse='true')
+print(filmes)
+
+print(60*'=')
+
+#ordenar e salvar em outro lugar 
+filmes2 = sorted(filmes)
+print(filmes2)
+
+
+
+filmes2.insert(2, 'joao e maria')
+print(filmes2)
+
+print(filmes2.index('vingadores'))

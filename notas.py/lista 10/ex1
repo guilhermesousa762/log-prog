@@ -1,0 +1,8 @@
+lista = []
+
+carros = ['ferrari f430 spider', 'monza tubarao', 'golf sapao', 'uno', 'opala', 'new civic', ]
+
+for carro in carros:
+    print(f'{carros}')
+for i in range(len(carros)):
+    print(f'{i+1} - {carros[i]}')

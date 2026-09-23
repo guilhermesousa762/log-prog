@@ -1,0 +1,15 @@
+#Construa um programa onde o usuário digitará sete números e o program
+#escreverá, na tela, quantos deles são pares e quantos são ímpares.
+pares = []
+impar = []
+
+for i in range(0, 3):
+
+    numero = float(input('digite um numero: '))
+    if (numero %2)==0:
+        pares.append(numero)
+
+    else:
+        impar.append(numero)
+
+print(f'pares:{pares}\n impar:{impar}')

@@ -1,0 +1,2 @@
+jogador1 = input('Jogador 1, escolha pedra, papel ou tesoura: ')
+jogador2 = input('Jogador 2, escolha pedra, papel ou tesoura: ')
